@@ -37,10 +37,12 @@ if($sec) $title .= "$sec Seconds ";
 		<meta property="og:url" content="http://tuesdaynightworlds.org"/>
 		<meta property="og:type" content="article"/>
 		<meta property="og:title" content="<?php echo $title ?>"/>
+		<meta property="og:image:width" content="308"/>
+		<meta property="og:image:height" content="325"/>
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="<?php echo $title ?>"/>
 		<meta name="twitter:url" content="http://tuesdaynightworlds.org">
-		<meta property="og:image" content="http://tuesdaynightworlds.org/images/TNW_WORLD_19-01.png"/>
+		
 		<meta name="twitter:image" content="http://tuesdaynightworlds.org/images/TNW_WORLD_19-01.png"/>
     </head>
     <body>
