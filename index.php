@@ -71,6 +71,12 @@ if($sec) $title .= "$sec Seconds ";
             		<a href="https://www.strava.com/segments/850343">Strava Segment</a>
             		<br/>•<br/>
             		<span>Logos by <a href="https://www.cutawayusa.com/">Cutaway</a>. <a href="https://www.cutawayusa.com/collections/tnw">Buy the jersey</a></span>
+            		<br/>•<br/>
+            		<span>
+                		<a href="https://www.facebook.com/groups/621311124683997/" title="TNW Facebook Group">
+                			<img src="images/f_logo_RGB-Blue_58.png" alt="Facebook Group" style="width:32px"/>
+                		</a>
+            		</span>
             	</div>
             </div>
         </div>
