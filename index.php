@@ -38,7 +38,7 @@ if($sec) $title .= "$sec Seconds ";
 		<meta property="og:url" content="http://tuesdaynightworlds.org"/>
 		<meta property="og:type" content="article"/>
 		<meta property="og:title" content="<?php echo $title ?>"/>
-		<meta property="og:description" content="Tuesday Night Worlds is the Charlottesville area's premier grassroots race-pace group ride. Multiple professional cyclists have cut their teeth on the traditional TNW long course. The TNW has been going strong for over two decades."/>
+		<meta property="og:description" content="Tuesday Night Worlds is the Charlottesville area's premier grassroots race-pace group ride."/>
 		<meta property="og:image" content="http://tuesdaynightworlds.org/images/TNW_WORLD_19-01.jpg"/>
 		<meta property="og:image:width" content="308"/>
 		<meta property="og:image:height" content="325"/>
