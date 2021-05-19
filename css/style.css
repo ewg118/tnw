@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    font-size:20px;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+    /*background-color: #ec176b;
+    color:white;    */
+}
+
+a {
+	text-decoration:underline;
+	/*color:white;*/
+}
+
+.timer {
+    width: 120px;
+    height: 80px;
+    color: white;
+    background-color: #0290ce;
+    display:inline-block;
+    padding:16px;
+    margin:25px;
+    border:2px solid #0b589c;
+    border-radius: 12px;
+    font-size:14px;
+    color:white;
+}
+.timer span {
+	    font-size:24px;
+}
