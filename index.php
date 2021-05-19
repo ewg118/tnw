@@ -49,23 +49,20 @@ if($sec) $title .= "$sec Seconds ";
     </head>
     <body>
         <div class="container-fluid" style="height:100%">
-            <div class="row" style="height:50%">
+            <div class="row hidden-xs hidden-sm" style="height:50%">
                 <div class="col-md-12 text-center" style="height:100%">
                     <img src="images/TNW_WORLD_19-01.png" alt="TNW logo" style="height:100%;max-width:100%"/>
                 </div>
             </div>
+            <div class="row visible-xs visible-sm">
+            	<img src="images/TNW_WORLD_19-01.png" alt="TNW logo" style="width:100%"/>
+            </div>
             <div class="row">
             	<div class="col-md-12 text-center">
             		<div>Next TNW begins in</div>
-            		<?php if ($day > 0) { 
-            		    echo '<div class="timer"><span id="day">' . $day . '</span><br/>days</div>'; 
-            		} ?>
-            		<?php if ($hr > 0) { 
-            		    echo '<div class="timer"><span id="hr">' . $hr . '</span><br/>hours</div>'; 
-            		} ?>
-            		<?php if ($min > 0) { 
-            		    echo '<div class="timer"><span id="min">' . $min . '</span><br/>minutes</div>'; 
-            		} ?>
+            		<div class="timer"><span id="day"><?php echo $day; ?></span><br/>days</div> 
+            		<div class="timer"><span id="hr"><?php echo $hr; ?></span><br/>hours</div> 
+            		<div class="timer"><span id="min"><?php echo $min; ?></span><br/>minutes</div> 
             		<div class="timer"><span id="sec"><?php echo $sec; ?></span><br/>seconds</div>            		
             	</div>
             	<div class="col-md-12 text-center">
