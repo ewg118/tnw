@@ -65,8 +65,14 @@ if($sec) $title .= "$sec Seconds ";
             		<div class="timer"><span id="min"><?php echo $min; ?></span><br/>minutes</div> 
             		<div class="timer"><span id="sec"><?php echo $sec; ?></span><br/>seconds</div>            		
             	</div>
-            	<div class="col-md-12 text-center">
-            		<span>Tuesday Night Worlds is the Charlottesville area's premier grassroots race-pace group ride.<br/>TNW meets near the Earlysville Post Office every Tuesday at 6pm from mid-March to late-October</span>
+            	<div class="col-md-12 text-center" itemscope itemtype="https://schema.org/Event">
+            		<span><span itemprop="name">Tuesday Night Worlds</span> is the Charlottesville area's premier grassroots race-pace group ride.<br/><span itemprop="alternateName">TNW</span> meets near the <span itemprop="location" itemscope itemtype="https://schema.org/Place">
+            		<span itemprop="name">Earlysville Post Office</span>
+            		<span itemprop="geo" itemscope itemtype="https://schema.org/GeoCoordinates">
+            			<span itemprop="latitude" content="38.152017"></span>
+            			<span itemprop="longitude" content="-78.479742"></span>            		
+            		</span>
+            		</span> every <span itemprop="startDate" content="Tu 18:00-19:00">Tuesday at 6pm</span> from mid-March to late-October</span>
             		<br/>•<br/>
             		<a href="https://www.strava.com/segments/850343">Strava Segment</a>
             		<br/>•<br/>
@@ -77,6 +83,7 @@ if($sec) $title .= "$sec Seconds ";
                 			<img src="images/f_logo_RGB-Blue_58.png" alt="Facebook Group" style="width:32px"/>
                 		</a>
             		</span>
+            		<br/>
             	</div>
             </div>
         </div>
