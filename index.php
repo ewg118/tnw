@@ -4,7 +4,8 @@ date_default_timezone_set("America/New_York");
 
 //perform date math for countdown
 $currentDateTime = strtotime("now");
-$next = strtotime("this Tuesday 18:00");
+//$next = strtotime("this Tuesday 18:00");
+$next = strtotime("2022-03-15T18:00:00");
 $rem = $next - $currentDateTime;
 
 $day = floor($rem / 86400);
